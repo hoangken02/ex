@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex</title>
+</head>
+<style>
+    table{
+        width: 50%;
+        border-collapse: collapse;
+    }
+    body{
+        padding: 50px;
+    }
+    td {
+        padding: 20px;
+        border: 1px solid black;
+    }
+</style>
+<body>
+<script src="ex.js"></script>
+<table>
+    <tr>
+        <td>Input N</td>
+        <td>
+            <button onclick="checkN()">check</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="number" id="ex2">
+        </td>
+        <td>
+            <button onclick="checkPrimeNumber()">check</button>
+        </td>
+    </tr>
+        <tr>
+            <td>displayPrimeNumber</td>
+            <td><button onclick="displayPrimeNumber()">check</button></td>
+        </tr>
+    <tr>
+        <td>Nhập N vào đây:<input type="number" id="ex4"></td>
+        <td><button onclick="addArray()">Add</button>
+            <button onclick="resetArray()">Reset</button></td>
+    </tr>
+    <tr>
+        <td>in ra số N</td>
+        <td><button onclick="printArray()">Print</button></td>
+    </tr>
+    <tr>
+        <td><p>Liệt kê danh sác các số nguyên tố</p>
+            <p>trong bảng 4</p>
+        </td>
+        <td><button onclick="printPrimeList()">List Prime</button></td>
+    </tr>
+    <tr>
+        <td><p>Nhập phần tử cần tìm</p>
+            <input type="text" id="ex7">
+        </td>
+        <td>
+            <button onclick="isInArray()">Find</button>
+
+        </td>
+    </tr>
+    <tr>
+        <td><p>Xóa phần tử nhập vào</p>
+            <input type="number" id="ex8">
+        </td>
+        <td>
+            <button onclick="deleteItemOfArray()">Delete</button>
+        </td>
+    </tr>
+    <tr>
+        <td><p>Sắp xếp mảng</p></td>
+        <td><button onclick="sortArray()">Sort</button></td>
+    </tr>
+    <tr>
+        <td><p>Chèn vào phần tử rồi sắp xếp</p>
+            <input type="number" id="ex10">
+        </td>
+        <td><button onclick="addAndSort()">Add and Sort</button></td>
+    </tr>
+</table>
+</body>
+</html>
